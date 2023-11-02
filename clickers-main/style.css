@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(30, 255, 0);
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#garen{
+    height: 500px;
+    width: 250px;
+    max-width: 500px;
+    max-height: 500px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.score{
+    display: flex;
+    flex-direction: row;
+    margin-left: 18px;
+    margin-top: 18px;
+    width: 20%;
+}
+
+.score p{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#yourscore{
+    margin-left: 10px;
+}
+
+.abilities{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 18px 2%;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.abilities p{
+    margin: 0 2%;
+    cursor: pointer;
+}
+
+.abilities span{
+    color: white;
+}
+
+#d {
+    display: flex;
+    background-color: #fff;
+    height: 110px;
+    width: 200px;
+    margin-top: 45px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    justify-content: center;
+}
+
+#d p{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sector{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    justify-content: center;
+}
+
+#object img{
+    width: 30px;
+    height: 35px;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+}
+
+.p{
+    display: flex;
+    flex-direction: row;
+}
